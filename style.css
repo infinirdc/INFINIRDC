@@ -111,8 +111,13 @@ nav {
     font-size: 1.8em;
     font-weight: 800;
     color: var(--gold-accent);
+    .logo img {
+        height: 48px;
+        width: auto;
+        display: inline-block;
+        vertical-align: middle;
+    }
 }
-
 nav ul {
     display: flex;
 }
